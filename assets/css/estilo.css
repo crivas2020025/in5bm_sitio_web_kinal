@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+Header{
+    text-align:center;
+    font-size: 30px;
+    padding:20px; text-align:left;
+    background-color: #75ABF0;
+}
+
+Header img{
+    height: 75px;
+}
+
+Header ul li a{
+    padding:20px;
+    color: white;
+    text-decoration: none;
+}
+
+Header ul li a:hover{
+    background-color: #7FC9E7;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+
+header ul li{
+     padding: 18px;
+    display:inline-block;
+}
+
+Header ul {
+    padding-left: 0px;
+}
+
+section{
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+section h1{
+    padding-bottom:35px ;
+}
+
+body{
+    background-color: #FCFDFF;
+}
+
+section p{
+    font-family: 'Times';
+    color: #283E6A;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+#middle-zone{
+    padding-bottom:800px ;
+}
+
+#footer-zone{
+    text-align:center;
+    font-size: 30px;
+    padding:20px; text-align:center;
+    background-color: #75ABF0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 80px;
+}
+
+div#body{
+    margin: 40px auto;
+    width: 800px;
+    min-height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+div.otros{
+    font-size: 20px;
+    width: 800px;
+    min-height: 50px;
+    -webkit-transition: height 0.2s;
+}
+
+div.Introduccion{
+    text-align: center;
+    font-size: 30px;
+    width: 800px;
+    height:50px;
+    background-color: #75ABF0;
+    overflow: hidden;
+    border-bottom: 1px solid #75ABF0;
+    color: white;
+}
+
+p.Introduccion{
+    margin: 13px;
+    color: white;
+}
+
+div.informacion{
+    text-align: justify;
+    width: 800px;
+    height: 0px;
+    font-size: 22px;
+    color: black;
+    background-color: #CDF0DE;
+    opacity: 0.8;
+    overflow: hidden;
+    -webkit-transition
+}
+
+p.informacion{
+    margin: 20px;
+    text-align: center;
+}
+
+div.otros:hover div.informacion{
+    height: 170px;
+    -webkit-transition: height 0.2s;
+}
