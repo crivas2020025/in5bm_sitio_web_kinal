@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+Header{
+    text-align:center;
+    font-size: 30px;
+    padding:20px; text-align:left;
+    background-color: #75ABF0;
+}
+
+Header img{
+    height: 75px;
+}
+
+Header ul li a{
+    padding:20px;
+    color: white;
+    text-decoration: none;
+}
+
+Header ul li a:hover{
+    background-color: #7FC9E7;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+
+header ul li{
+     padding: 18px;
+    display:inline-block;
+}
+
+Header ul {
+    padding-left: 0px;
+}
+
+section{
+    font-size: 40px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+section h1{
+    padding-bottom:35px ;
+}
+
+body{
+	background: linear-gradient(to right, #BCF2F6, white);
+	font-family: 'Helvetica';
+
+}
+
+section p{
+    font-family: 'Times';
+    color: #283E6A;
+    
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+#middle-zone{
+    padding-bottom:500px ;
+}
+
+#footer-zone{
+    text-align:center;
+    font-size: 30px;
+    margin-top:50px;
+    padding:20px; text-align:center;
+    background-color: #75ABF0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 160px;
+}
+
+*{
+    margin: 0; padding: 0; 
+    box-sizing: border-box; 
+    font-family: Helvetica; 
+}
+
+.parrafo{
+    padding-top: 22.5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    box-shadow: 1px 3px 25px #75ABF0;
+    border-radius: 10px 10px;
+    margin: auto;
+    text-align: justify;
+    width: 70%;
+    font-family: Helvetica;
+    background-color: white;
+}
+
+section .parrafo{
+    display: display;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo p{
+    font-size: 21px;
+}
+
+.parrafo img{
+    width: 110px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+#image{
+    right: 3%;
+    height: 145px;
+    top: 50%;
+    position: absolute;
+}
+
+#image1{
+    left: 3%;
+    height: 145px;
+    top: 92%;
+    position: absolute;
+}
+
+#image2{
+    right: 3%;
+    height: 145px;
+    top: 132%;
+    position: absolute;
+}
+
